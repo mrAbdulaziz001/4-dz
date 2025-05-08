@@ -1,0 +1,68 @@
+body {
+    background: black;
+}
+
+.wrapper {
+    border-radius: 32px;
+    width: 478px;
+    height: 134px;
+    background-color: rgba(217, 217, 217, 0.5);
+    opacity: 0.2;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#text {
+    color: white;
+    font-family: "Inter";
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 87px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#plyus {
+    background-color: greenyellow;
+    color: black;
+    font-size: xx-large;
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+
+#minus {
+    background-color: red;
+    color: black;
+    font-size: xx-large;
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+
+#input {
+    width: 331px;
+    height: 51px;
+    margin-bottom: 55px;
+    margin-top: 140px;
+    margin-left: 255px;
+    margin-right: 35px;
+    box-sizing: border-box;
+    border: 3px solid rgb(42, 42, 42);
+    border-radius: 30px;
+    background: rgb(217, 217, 217);
+    padding: 14px 119px 13px 28px;
+}
+
+#send {
+    width: 112px;
+    height: 51px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: rgb(42, 42, 42);
+}
